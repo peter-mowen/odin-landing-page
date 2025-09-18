@@ -113,3 +113,18 @@ nav {
   padding-top: 8px;
   color: gray;
 }
+
+.quote {
+  background: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: 900;
+}
