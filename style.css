@@ -78,10 +78,10 @@ nav {
 }
 
 .info-content-item-img {
-  border: 3px solid #3882F6;
-  border-radius: 8px;
-  height: 100px;
-  width: 100px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  height: 150px;
+  width: 150px;
 }
 
 .info-header {
@@ -92,4 +92,23 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 50px 0px;
+}
+
+.info-content {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  gap: 32px;
+}
+
+.info-content-item-text {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-align-last: center;
+  height: 150px;
+  width: 150px;
+  padding-top: 8px;
+  color: gray;
 }
