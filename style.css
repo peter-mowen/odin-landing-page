@@ -76,3 +76,10 @@ nav {
 .high-contrast-text {
   color: #F9FAF8;
 }
+
+.info-content-item-img {
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+}
