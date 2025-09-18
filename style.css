@@ -4,6 +4,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  margin: 0px;
 }
 
 .header {
@@ -14,12 +15,14 @@ body {
   font-size: 24px;
 }
 
+.page-padding {
+  padding: 0px 225px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
 
   ul {
     list-style: none;
@@ -51,19 +54,19 @@ nav {
 
 .header-image {
   background: gray;
-  height: 200px;
+  height: 225px;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin-left: 25px;
 }
 
 .header-content {
-  padding: 100px;
+  padding: 100px 0px;
   display: flex;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .sign-up-button {
@@ -96,8 +99,6 @@ nav {
 
 .info-content {
   display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
   justify-content: center;
   gap: 32px;
 }
