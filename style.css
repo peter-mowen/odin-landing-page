@@ -12,7 +12,6 @@ body {
 
 .hero-logo {
   font-size: 24px;
-  color: #F9FAF8;
 }
 
 nav {
@@ -44,7 +43,6 @@ nav {
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8
 }
 
 .header-image {
@@ -62,4 +60,15 @@ nav {
   padding: 100px;
   display: flex;
   justify-content: space-between;
+}
+
+.sign-up-button {
+  background: #3882F6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+.high-contrast-text {
+  color: #F9FAF8;
 }
