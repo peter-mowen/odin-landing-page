@@ -45,6 +45,10 @@ nav {
   font-weight: 900;
 }
 
+.hero-secondary-text {
+  margin-bottom: 8px;
+}
+
 .header-image {
   background: gray;
   height: 200px;
