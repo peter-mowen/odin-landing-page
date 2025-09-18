@@ -116,6 +116,7 @@ nav {
 
 .quote {
   background: #E5E7EB;
+  padding: 150px 305px 100px;
 }
 
 .quote-text {
@@ -127,4 +128,6 @@ nav {
 .quote-author {
   font-size: 18px;
   font-weight: 900;
+  text-align: right;
+  margin-top: 16px;
 }
