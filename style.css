@@ -19,8 +19,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 
   ul {
     list-style: none;
@@ -34,7 +34,24 @@ nav {
   }
 }
 
+.header-image,
+.hero-secondary-text,
 .header-link {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8
+}
+
+.header-image {
+  background: gray;
+  height: 150px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
