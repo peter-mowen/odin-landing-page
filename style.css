@@ -152,5 +152,9 @@ nav {
   button {
     border: 3px solid white;
   }
-  
+}
+
+.call-to-action-main-text {
+  font-size: large;
+  font-weight: bold;
 }
